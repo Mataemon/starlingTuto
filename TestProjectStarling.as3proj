@@ -10,7 +10,7 @@
     <movie height="762" />
     <movie version="23" />
     <movie minorVersion="0" />
-    <movie platform="AIR" />
+    <movie platform="Flash Player" />
     <movie background="#FFFFFF" />
   </output>
   <!-- Other classes to be compiled into your SWF -->
@@ -19,6 +19,9 @@
     <class path="D:\SDKs\starling-2.1\starling\src" />
     <class path="D:\SDKs\Hi-Res Stats\src" />
     <class path="D:\SDKs\GreenSock-AS3" />
+    <class path="..\libs\starling-2.1\starling\src" />
+    <class path="..\libs\Hi-ReS-Stats-master\src" />
+    <class path="..\libs\GreenSock-AS3" />
   </classpaths>
   <!-- Build options -->
   <build>

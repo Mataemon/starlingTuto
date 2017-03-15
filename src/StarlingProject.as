@@ -2,6 +2,7 @@ package
 {
 	import flash.display.Sprite;
 	import net.hires.debug.Stats;
+	import screens.InGame;
 	import starling.core.Starling;
 	
 	/**
@@ -20,7 +21,7 @@ package
 			stats = new Stats();
 			this.addChild(stats);
 			
-			myStarling = new Starling(Game, stage);
+			myStarling = new Starling(InGame, stage);
 			myStarling.antiAliasing = 1;
 			myStarling.start();
 		}
